@@ -1,12 +1,17 @@
-import React from 'react';
+// App.js
+import React, { Component } from 'react';
+import { HashRouter, Route, Link } from "react-router-dom";
 import NutritionCalculator from './NutritionCalculator';
-// import './App.css';
+import Review from './Review';
 
 function App() {
   return (
-    <div className="App">
-      <NutritionCalculator />
-    </div>
+    <HashRouter basename="/">
+        <div>
+          <Route exact path="/" component={NutritionCalculator} />
+          <Route path="/calculator" component={Review} />
+        </div>
+      </HashRouter>
   );
 }
 
