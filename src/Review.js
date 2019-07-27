@@ -131,7 +131,7 @@ export default function Review(props) {
   const { gender, height, weight, age, activity, goal } = props;
 
 
-  const initialCalories = calculateCalories(gender, height, weight, age, activity, goal);
+  const initialCalories = calculateCalories(gender, height, weight, age, activity, goal) || 2200;
   const initialSliderValues = [50, 70]
 
   const [sliderValues, setSliderValues] = React.useState(initialSliderValues);
