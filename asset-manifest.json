@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/pashi-react-components/static/js/main.eedc1aec.chunk.js",
+    "main.js.map": "/pashi-react-components/static/js/main.eedc1aec.chunk.js.map",
+    "runtime~main.js": "/pashi-react-components/static/js/runtime~main.799418ea.js",
+    "runtime~main.js.map": "/pashi-react-components/static/js/runtime~main.799418ea.js.map",
+    "static/js/2.574cbcde.chunk.js": "/pashi-react-components/static/js/2.574cbcde.chunk.js",
+    "static/js/2.574cbcde.chunk.js.map": "/pashi-react-components/static/js/2.574cbcde.chunk.js.map",
+    "index.html": "/pashi-react-components/index.html",
+    "precache-manifest.839524cd98b1fd2633d4dcc6d7604040.js": "/pashi-react-components/precache-manifest.839524cd98b1fd2633d4dcc6d7604040.js",
+    "service-worker.js": "/pashi-react-components/service-worker.js"
+  }
+}
