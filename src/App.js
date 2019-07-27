@@ -1,6 +1,6 @@
 // App.js
-import React, { Component } from 'react';
-import { HashRouter, Route, Link } from "react-router-dom";
+import React from 'react';
+import { HashRouter, Route } from "react-router-dom";
 import NutritionCalculator from './NutritionCalculator';
 import Review from './Review';
 
